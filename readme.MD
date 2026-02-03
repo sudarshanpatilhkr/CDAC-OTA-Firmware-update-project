@@ -162,7 +162,7 @@ FIRMWARE_SIGNING_KEY=/path/to/private.key
 - MQTT Protocol: For IoT communication
 - Bootloader Integration: U-Boot, MCUboot documentation
 
-## Notes for Claude
+## Notes for  
 
 - This is an embedded systems project with security-critical requirements
 - Performance and resource constraints are important for client-side code
