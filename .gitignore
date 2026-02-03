@@ -1,0 +1,44 @@
+# STM32CubeIDE
+stm32-bootloader/Debug/
+stm32-bootloader/Release/
+stm32-app/Debug/
+stm32-app/Release/
+*.o
+*.d
+*.elf
+*.hex
+*.map
+*.list
+*.build_log.htm
+.settings/
+.cproject
+.project
+
+# Arduino / ESP32
+esp32/build/
+*.ino.hex
+*.ino.elf
+
+# Python
+server/__pycache__/
+server/*.pyc
+server/venv/
+server/.env
+*.egg-info/
+dist/
+build/
+
+# Firmware binaries
+server/firmware/*.bin
+server/firmware/patches/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
